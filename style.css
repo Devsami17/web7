@@ -1,0 +1,345 @@
+body{
+    font-family: "Manrope";
+    scroll-behavior: smooth;
+}
+.header-1{
+    height: 70px;
+    background-color: #000;
+}
+.header-1 i{
+    color: #fff;
+}
+.header-1 span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Manrope";
+
+}
+.header-1 .container{
+    height: 70px;
+}
+ button
+{
+    height: 40px;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+    color: #06CA8C;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.header-2{
+    background-color: #06CA8C;
+    height: 80px;
+
+}
+
+.header-2 .container .col-lg-3{
+    background-color: #fff;
+    height: 80px;
+}
+.header-2 .container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-2 .container a{
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media only screen and (min-width:300px ) and (max-width:768px)
+{
+    .header-2{
+        display: none !important;
+    }
+    .header-respo{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+    }
+    .header-responsive-block{
+        display: block !important ;
+    }
+    .header-responsive li{
+        font-weight: 700;
+        padding: 15px 0px;
+        letter-spacing: 1.2px;
+        list-style: none;
+     text-transform: uppercase;
+        border-bottom: 1px solid #000;
+    }
+    .header-responsive ul{
+        padding: 0px;
+    }
+}
+@media  only screen and (min-width:300px) and (max-width:500px) {
+    
+.header-1{
+    display: none !important;
+}
+h2{
+    line-height: 50px !important; 
+    font-size: 35px !important;
+}
+p{
+    font-size: 14px !important;
+}
+.section-2 h5 {
+    font-size: 18px !important;
+}
+.sec-2-boxes {
+    width: 50% !important;
+}
+h1{
+    font-size: 28px !important;
+}
+.sec-5-boxes{
+    width: 100% !important;
+}
+section{
+    padding: 20px 0px !important;
+}
+.inp-group input{
+    width: 100% !important;
+}
+.section-7 button{
+    width: 100% !important;
+}
+label{
+    font-size: 15px !important;
+}
+}
+.header-respo{
+    height: 70px;
+    background-color: #06CA8C;
+    display: none;
+}
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .8s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .5s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .5s;
+    transform: rotate(180deg);
+  }
+  .header-responsive{
+    height: 220px;
+    width: 100%;
+    background-color: #06CA8C;
+    display: none;
+    transition:  all 0.4s ease-in-out;
+    
+  }
+.section-1 {
+    background: url('bg.jpg');
+    height: fit-content;
+    padding: 80px 0px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    color: #fff;
+}
+h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    background-color: #FFFFFF45;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+ h2{
+    font-weight: 800;
+    line-height: 55px;
+    font-size: 40px;
+
+}
+section
+{
+    padding: 40px 0px;
+}
+.section-2 h5{
+    font-weight: 600;
+font-size: 20px;
+margin-bottom: 5px;
+
+}
+.section-1 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+p{
+font-size: 14px;
+}
+.section-2 i{
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #06CA8C;
+    margin-top: 5px;
+}
+.sec-2-boxes h3{
+margin: 10px 0px;
+padding: 0px;
+     text-transform: capitalize;
+}
+.sec-2-boxes{
+display: flex;
+flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+}
+.section-2 button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #61CE70;
+    color: #fff;
+    height: 44px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 0px 50px;
+}
+h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+.section-3 h3{
+    color: #06CA8C;
+}
+.section-3   button{
+
+    background-color: #61CE70;
+    color: #fff;
+    height: 44px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+    font-weight: 700;
+    padding: 0px 50px;
+}
+.section-4{
+    background-color: #0A1E34;
+}
+.section-4   button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #61CE70;
+    color: #fff;
+    height: 44px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    font-weight: 700;
+    padding: 0px 50px;
+}
+.sec-5-boxes{
+    width: 20%;
+    margin-bottom: 40px;
+    text-align: center ;
+}
+.section-6 h3{
+    color: #06CA8C;
+}
+.section-6   button{
+
+    background-color: #61CE70;
+    color: #fff;
+    height: 44px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    font-weight: 700;
+    padding: 0px 50px;
+}
+.section-6 ul li{
+    margin-top: 10px;
+    list-style: none;
+ 
+}
+.section-6 i{
+    color: #06CA8C;
+}
+label{
+    color: #61CE70;
+    font-weight: 600;
+}
+footer{
+    color: #fff;
+    padding: 10px 0px;
+    background-color: #000;
+}
+footer p{
+    letter-spacing: 1.4px;
+    word-spacing: 3px;
+}
+@media only screen and (min-width:600px) and (max-width:980px){
+    .sec-5-boxes{
+        width: 45% !important;
+    }
+}
